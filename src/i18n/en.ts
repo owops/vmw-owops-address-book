@@ -1,0 +1,5 @@
+export const en: Map<string, string> = new Map<string, string>()
+    .set('update_button', 'update')
+    .set('add_button', 'add')
+    .set('delete_button', 'delete')
+    .set('invalid_message', 'Invalid Information:')

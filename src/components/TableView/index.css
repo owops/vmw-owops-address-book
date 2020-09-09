@@ -1,0 +1,32 @@
+
+.table-body {
+    width: 100%;
+}
+
+.table-body-content > div:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+
+.table-header {
+    background-color: lightgray;
+    width: 100%;
+    min-height: 50px;
+}
+
+.table-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.table-col {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1px;
+    border-right: 1px solid lightgrey;
+    white-space: nowrap;
+    overflow-x: scroll;
+    height: 40px;
+    line-height: 40px;
+}
+
